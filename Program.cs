@@ -1,4 +1,5 @@
-﻿using System;
+﻿using introduction_to_csharp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,11 +17,18 @@ namespace Linqsample1
 
 
 
-            Console.WriteLine("MaxValue value= " + mixedsyntax);
+           // Console.WriteLine("MaxValue value= " + mixedsyntax);
 
-                Console.ReadLine();
+                //Console.ReadLine();
 
-            
+            Addition sum = new Addition();
+            int A = sum.Add(2, 3);
+
+
+            Console.WriteLine(A);
+            Console.ReadLine();
+
+
 
         }
     }
