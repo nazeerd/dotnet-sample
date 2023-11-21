@@ -26,6 +26,15 @@ namespace Linqsample1
 
 
             Console.WriteLine(A);
+           
+
+            MDivision divobj = new MDivision();
+            divobj.Div(8);
+
+
+            HighestNumber num = new HighestNumber();
+            num.Hig(4, 5, 6);
+
             Console.ReadLine();
 
 
